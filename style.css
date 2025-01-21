@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font: "Roboto Mono";
+    --bgColor: #fbfbfb;
+}
+
+body{    
+    background-color: var(--bgColor);
+}
+
+main{
+    display: grid;
+    grid-template-columns: 30vw auto;
+    min-width: 300px;
+    height: 100vh;
+}
+
+.instrumentContainer{        
+    position: relative;
+    background-image: url(img/electric\guitar.jpg);
+    filter: brightness(40%);
+    background-position: center;
+    background-size: 100vh;
+    height: 100%;
+}
+
+.titleBg{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10vh;
+    gap: 1.2rem;
+    padding: 0 0 0 1.5rem;
+    font-family: var(--font);
+    position: absolute;
+    color: white;
+}
+
+.titleBg h1{
+    font-size: 3.5em;
+    font-weight: 500;
+    /* align-items: center; */
+}
+
+.titleBg img{
+    height: 5.8em;
+    width: 5.3em;
+}
+
+.formContainer{
+    width: 100%;
+}
+
+.texts h2{
+    border: 1px solid red;
+    width: 80%;
+}
+
+
+.formContainer{
+    border: 1px solid red;
+    height: 50vh;
+}
+
+form{
+    border: 1px solid red;
+    height: 50vh;
+}
+
