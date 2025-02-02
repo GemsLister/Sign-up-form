@@ -112,6 +112,12 @@ button:hover{
     background-color: #57575e;
 }
 
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
 .login{
     margin: 4vh 0 0;
 }
