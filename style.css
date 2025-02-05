@@ -77,7 +77,7 @@ main{
 .container2 h1{
     position: absolute;
     top: 17vh;
-    right: 10vw;
+    right: 13.5vw;
     font-size: 4rem;
 
 }
@@ -125,3 +125,42 @@ section{
 .login a{
     color: var(--button-color);
 }
+
+.login a:hover{
+    color: #4c4c4e;
+}
+
+/* Google and Facebook icon */
+.googleFb{
+    display: flex;
+    gap: 2vh;
+}
+
+.googleFb button{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1vw;
+    border: 2px solid var(--button-color);
+    background-color: transparent;
+    height: 6vh;
+    width: 13vw;
+    font-size: 13px;
+    color: var(--button-color);
+    cursor: pointer;
+}
+
+.googleFb button:hover{
+    /* border: 2px solid var(--semi-white); */
+    color: var(--semi-white);
+    background-color:#b6b6c0;
+}
+
+.googleFb img:nth-child(1){
+    height: 2.5vh;
+}
+
+.googleFb img:nth-child(2){
+    height: 3.7vh;
+}
+
